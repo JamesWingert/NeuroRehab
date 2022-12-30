@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,600&display=swap');
+
+@font-face {
+  font-family: 'NexaDemo-Bold';
+  src: url('../../public/NexaBold.otf');
+}
+@font-face {
+  font-family: 'EquinoxRegular';
+  src: url('../../public/Equinox/EquinoxRegular.otf');
+}
+@layer components {
+  .container {
+    @apply mx-auto max-w-6xl px-8  py-8 2xl:max-w-[1700px];
+  }
+}
+@layer base {
+  body {
+    @apply font-inter;
+  }
+}
+/* .testImage {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23107e8e' fill-opacity='0.22' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  width: auto;
+  height: 100%;
+} */
+
+.text-shadown {
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -2px black;
+}
+
+.c-office-overview__map {
+  height: 300px;
+}
+
+.c-office-overview__map-selected-info__close {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+html,
+body {
+  font-family: inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.custom-shape-divider-bottom-1647011816 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: ;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647011816 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 160px;
+}
+
+.custom-shape-divider-bottom-1647011816 .shape-fill {
+  fill: #f7fdfe;
+}
+
+imgNew {
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  background-image: silver;
+  margin-right: 1em;
+  object-fit: none;
+}
+
+#object-position-1 {
+  object-position: 10px;
+}
+
+#object-position-2 {
+  object-position: 100% 10%;
+}
+
+.tiny-hero {
+  object-position: 84%;
+}

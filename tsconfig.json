@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./public/*"]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/maps/Chandler.jsx",
+    "src/components/maps/Mesa.jsx",
+    "src/components/maps/Mesa.jsx",
+    "src/components/maps/Mesa.jsx",
+    "src/components/maps/Mesa.js",
+    "src/components/swiper/Swiper.jsx",
+    "src/components/home/Services.js",
+    "src/components/util/Blur.js",
+    "src/pages/appointment.tsx",
+    "src/pages/appointment.tsx",
+    "src/pages/contact.tsx",
+    "src/components/home/Contact.jsx",
+    "src/components/layout/Banner.tsx"
+  ],
+  "exclude": ["node_modules"],
+  "moduleResolution": ["node_modules", ".next", "node"]
+}

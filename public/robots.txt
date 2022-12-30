@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://neurologyandsleep.com
+
+# Sitemaps
+Sitemap: https://neurologyandsleep.com/sitemap.xml
