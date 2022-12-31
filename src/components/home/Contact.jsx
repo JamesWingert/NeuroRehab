@@ -94,10 +94,10 @@ export default function Contact() {
     }
   };
   return (
-    <div className=''>
+    <div className='bg-white'>
       <Divider sectionName='How did we do?' />
       <div className='container max-w-6xl pb-24 '>
-        <div className='relative rounded-2xl bg-[#f0fdff]/80 shadow-2xl'>
+        <div className='relative rounded-2xl bg-[#fff3de]/30 shadow-2xl'>
           <div className='relative mx-auto max-w-7xl lg:grid lg:grid-cols-5'>
             <div className=' py-12 px-4 sm:px-6 lg:col-span-2 lg:px-8 xl:pr-12'>
               <div className='mx-auto max-w-lg'>

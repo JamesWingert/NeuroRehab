@@ -36,8 +36,8 @@ const posts = [
 
 export default function Map() {
   return (
-    <div>
-      <div className='max-w-8xl mx-auto px-8  py-8 '>
+    <div className='bg-[#fff3de]/30'>
+      <div className='mx-auto max-w-7xl px-8  py-8 '>
         <div className=' mx-auto '>
           <div className='text-center '>
             <Divider sectionName='Our Locations' />

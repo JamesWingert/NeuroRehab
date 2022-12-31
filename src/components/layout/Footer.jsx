@@ -25,7 +25,7 @@ export const Footer = () => {
   const router = useRouter();
 
   <svg
-    className='w-fill absolute right-32 top-0  -mt-5 h-6 text-[#E8FAFC] sm:-mt-10  sm:h-14'
+    className='w-fill absolute right-32 top-0  -mt-5 h-6 text-[#fff3de]/30 sm:-mt-10  sm:h-14'
     preserveAspectRatio='none'
     viewBox='100 100 1540 54'
   >
@@ -36,7 +36,7 @@ export const Footer = () => {
   </svg>;
 
   return (
-    <div className='relative bg-[#F7FDFE] '>
+    <div className='relative bg-[#fff3de]/70 '>
       <div className='mx-auto max-w-7xl pt-8 text-center  '>
         <div className='custom-shape-divider-bottom-1647011816 w-fill absolute right-32 top-0  z-10 -mt-5 h-6 sm:-mt-10  sm:h-14 '>
           <svg
@@ -70,7 +70,12 @@ export const Footer = () => {
                 title='Company'
                 className='inline-flex items-center'
               >
-                <Image src='/logo.png' alt='logo' height={55} width={300} />
+                <Image
+                  src='/RehabLogo.png'
+                  alt='logo'
+                  height={55}
+                  width={300}
+                />
               </a>
             </Link>
             <div className='mt-5  font-bold tracking-wide text-[#191716] '>

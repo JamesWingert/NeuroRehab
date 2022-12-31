@@ -80,17 +80,17 @@ const services = () => {
           <div className='mb-20 rounded-3xl bg-wcyan/30'>
             <div className='mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24'>
               <h2 className='text-3xl font-extrabold tracking-tight text-wcyan'>
-                Advanced Diagnostic Services
+                Coming Soon...{' '}
               </h2>
-              <p className='mt-4 max-w-6xl text-center text-lg text-slate-600'>
+              {/* <p className='mt-4 max-w-6xl text-center text-lg text-slate-600'>
                 Our experienced team works together to evaluate your condition.
                 Our advanced diagnostic services utilize state-of-the-art
                 medical technology, providing referring physicians and patients
                 with the opportunity to receive fast, accurate results so that
                 appropriate treatments can begin as quickly as possible. Scroll
                 down to review our Advanced Diagnostic Services.
-              </p>
-              <div className='mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
+              </p> */}
+              {/* <div className='mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
                 {features.map((feature) => (
                   <div key={feature.name}>
                     <div>
@@ -113,7 +113,7 @@ const services = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

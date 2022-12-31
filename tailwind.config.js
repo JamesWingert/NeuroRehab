@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        wcyan: '#107E8E',
+        wcyan: '#7694a7',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

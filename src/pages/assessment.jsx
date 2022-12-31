@@ -8,11 +8,11 @@ import {
   PhoneIcon,
 } from '@heroicons/react/outline';
 import Link from 'next/link';
-import bgmap from 'public/cactus4.jpg';
 import { useState } from 'react';
 
 import Banner from '@/components/layout/Banner';
 import Seo from '@/components/Seo';
+
 export default function Contact() {
   const [fullname, setFullname] = useState('');
   const [email, setEmail] = useState('');
@@ -114,13 +114,13 @@ export default function Contact() {
   return (
     <div>
       <Seo />
-      <Banner pageName='Contact Us' imageURL={myImage} />
+      <Banner pageName='Evaluation Request' imageURL={myImage} />
       <div className='container max-w-6xl pt-4 pb-24 sm:pt-12'>
         <div className=' mt-14 lg:grid lg:grid-cols-5'>
           <div
             className=' rounded-2xl py-1 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-10 xl:px-8'
             style={{
-              backgroundImage: `url(${bgmap.src})`,
+              //   backgroundImage: `url(${bgmap.src})`,
               width: '100%',
               height: '100%',
               backgroundRepeat: 'no-repeat',
@@ -130,8 +130,9 @@ export default function Contact() {
             }}
           >
             <div className='mx-auto max-w-lg px-2'>
-              <h1 className='text-center text-5xl font-extrabold tracking-tight text-[#c6a25e]'>
-                Contact Us
+              <h1 className='text-center text-xl font-extrabold tracking-tight text-[#c6a25e]'>
+                For a free assessment, please give us a call or submit this form
+                and we will contact you as soon as possible. Thank you!
               </h1>
               <dl className='mt-6 text-base  text-wcyan  '>
                 <div className='mt-4'>
@@ -278,7 +279,7 @@ export default function Contact() {
                     name='message'
                     rows={4}
                     className='block w-full rounded-md border border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-cyan-500 focus:ring-cyan-500'
-                    placeholder='Message'
+                    placeholder='Summary of concern'
                     value={message}
                     onChange={(e) => {
                       setMessage(e.target.value);

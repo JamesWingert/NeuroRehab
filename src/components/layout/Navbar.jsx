@@ -13,7 +13,6 @@ const navigation = [
   { name: 'Insurances', href: '/insurance', current: false },
   { name: 'Locations', href: '/locations', current: false },
   { name: 'Contact', href: '/contact', current: false },
-  { name: 'Patients', href: '/patients', current: false },
 ];
 
 function classNames(...classes) {
@@ -32,9 +31,9 @@ export default function Navbar() {
         <>
           <Header />
           <div className='mx-auto max-w-screen-2xl lg:mx-auto '>
-            <div className='relative flex h-16 items-center justify-between '>
-              <div className='absolute inset-y-0 right-0 flex items-center lg:hidden  '>
-                <Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#00847D] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset  focus:ring-white'>
+            <div className='h-18 relative flex items-center justify-between'>
+              <div className='absolute inset-y-0 right-0 flex items-center lg:hidden'>
+                <Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#465b69] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset  focus:ring-white'>
                   <span className='sr-only'>Open main menu</span>
                   {open ? (
                     <XIcon className='block h-10 w-10' aria-hidden='true' />
@@ -45,13 +44,13 @@ export default function Navbar() {
               </div>
               <div className='flex flex-1 sm:justify-start md:items-stretch '>
                 <div className='flex flex-shrink-0 items-center '>
-                  <div className='block w-auto pt-3 '>
+                  <div className='block w-auto p-3 '>
                     <Link href='/' passHref>
                       <Image
-                        src='/logo.png'
+                        src='/RehabLogo.png'
                         alt='logo'
-                        height={55}
-                        width={300}
+                        height={65}
+                        width={360}
                         className='hover:cursor-pointer'
                       />
                     </Link>
@@ -64,7 +63,7 @@ export default function Navbar() {
                         <Link href={item.href} key={item.name} passHref>
                           <a
                             className={classNames(
-                              ' font-heavy px-1 text-lg',
+                              ' font-heavy px-1 text-xl',
                               router.route === item.href
                                 ? 'border-b border-wcyan text-wcyan'
                                 : ' text-gray-600  hover:border-b hover:border-wcyan hover:text-wcyan'
@@ -77,16 +76,6 @@ export default function Navbar() {
                           </a>
                         </Link>
                       ))}
-                      <Link
-                        href='https://mycw34.eclinicalweb.com/portal3661/jsp/100mp/login_otp.jsp'
-                        passHref
-                      >
-                        <a target='_blank'>
-                          <button className='rounded-full border border-wcyan bg-wcyan p-1 font-bold text-white hover:border hover:border-wcyan hover:bg-wcyan/70 xl:p-3'>
-                            Patient Portal
-                          </button>
-                        </a>
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -103,8 +92,8 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     router.route === item.href
-                      ? 'bg-wcyan text-white'
-                      : 'bg-[#d0e5e8] hover:bg-[#5692B7]/70 hover:text-white',
+                      ? 'bg-[#465b69]/90 text-white'
+                      : 'bg-wcyan hover:bg-wcyan/80 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={router.route === item.href ? 'page' : undefined}
@@ -112,19 +101,6 @@ export default function Navbar() {
                   {item.name}
                 </Disclosure.Button>
               ))}
-              <div className='mt-1 flex items-center space-x-3'>
-                <Link
-                  href='https://mycw34.eclinicalweb.com/portal3661/jsp/100mp/login_otp.jsp'
-                  passHref
-                >
-                  <button
-                    type='button'
-                    className='mr-2 mb-2 w-full rounded-xl border border-wcyan bg-wcyan px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-wcyan/90 focus:ring-4 focus:ring-blue-300 '
-                  >
-                    Patient Portal
-                  </button>
-                </Link>
-              </div>
             </div>
           </Disclosure.Panel>
         </>
