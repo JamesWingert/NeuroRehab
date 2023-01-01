@@ -172,8 +172,8 @@ export default function Appointment() {
                 <div className='border-b border-gray-300 py-5 xl:w-full'>
                   <div className='mx-auto flex w-11/12 items-center xl:mx-0 xl:w-full'>
                     <p className='text-lg font-bold  text-gray-800'>
-                      To Request an Appointment Online with Neurology and Sleep
-                      Medicine Associates, please use the form below, and our
+                      To Request an Appointment Online with Neurology and Neuro
+                      Rehabilitation, please use the form below, and our
                       scheduling coordinator will contact you by phone within
                       the next 48 hours (not including weekends or holidays) to
                       find an appointment that best meets your needs.

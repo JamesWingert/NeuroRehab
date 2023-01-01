@@ -1,6 +1,6 @@
 {
-  "name": "neurology-and-sleep-medicine-associates",
-  "description": "Neurology and Sleep Medicine website.",
+  "name": "neurology-and-neuro-rehablitation",
+  "description": "Neurology and Neuro Rehabilitation website.",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "next",

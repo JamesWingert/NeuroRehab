@@ -133,7 +133,7 @@ export default function Contact() {
                         className='h-6 w-6 flex-shrink-0 text-wcyan'
                         aria-hidden='true'
                       />
-                      <span className='ml-3 text-gray-700'>
+                      <span className='ml-3 text-sm sm:text-base text-gray-700'>
                         HHedgpeth@neurologyandsleep.com
                       </span>
                     </dd>

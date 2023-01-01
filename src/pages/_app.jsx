@@ -12,10 +12,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Neurology & Sleep Medicine Associates</title>
+        <title>Neurology & Neuro Rehabilitation</title>
 
         <meta
-          name='Neurology and Sleep Medicine Associates'
+          name='Neurology and Neuro Rehabilitation'
           content='Neurology/Sleep/Physical Therapy in Arizona'
         />
         <meta name='author' content='James Wingert' />

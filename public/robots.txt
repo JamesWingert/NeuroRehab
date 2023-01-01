@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://neurologyandsleep.com
+Host: https://neurologyandneurorehabilitation.com
 
 # Sitemaps
-Sitemap: https://neurologyandsleep.com/sitemap.xml
+Sitemap: https://neurologyandneurorehabilitation.com/sitemap.xml

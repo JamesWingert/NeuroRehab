@@ -241,7 +241,7 @@ export const Footer = () => {
         </div>
         <div className='flex flex-col  justify-between border-t border-wcyan pt-5 pb-2 md:flex-row lg:-mb-10 '>
           <p className='pb-2 text-sm text-gray-600'>
-            © Copyright 2022 Neurology And Sleep Medicine Associates. All rights
+            © Copyright 2022 Neurology And Neuro Rehablitation. All rights
             reserved.
           </p>
 

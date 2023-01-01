@@ -4,19 +4,17 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/components/lib/helper';
 
 const defaultMeta = {
-  title: 'Neurology and Sleep Medicine Associates',
-  siteName: 'Neurology and Sleep Medicine Associates',
+  title: 'Neurology and Neuro Rehabilitation',
+  siteName: 'Neurology and Neuro Rehabilitation',
   description:
-    'A website for Neurology and Sleep Medicine Associates in Arizona. Physical Therapy, Psychiatry, Sleep, Neurology, and more.',
+    'A website for Neurology and Neuro Rehabilitation in Arizona. Physical Therapy, Psychiatry, Sleep, Neurology, and more.',
 
-  url: 'https://neurologyandsleep.com',
+  url: 'https://neurologyandneurorehabilitation.com',
   type: 'website',
   robots: 'follow, index',
 
   image: '',
 };
-
-
 
 export default function Seo(props) {
   const router = useRouter();
@@ -63,7 +61,6 @@ export default function Seo(props) {
     </Head>
   );
 }
-
 
 const favicons = [
   {

@@ -45,13 +45,24 @@ export default function Navbar() {
               </div>
               <div className='flex flex-1 sm:justify-start md:items-stretch '>
                 <div className='flex flex-shrink-0 items-center '>
-                  <div className='block w-auto p-3 '>
+                  <div className='hidden w-auto p-3 sm:block'>
                     <Link href='/' passHref>
                       <Image
                         src='/RehabLogo.png'
                         alt='logo'
                         height={65}
                         width={360}
+                        className='hover:cursor-pointer'
+                      />
+                    </Link>
+                  </div>
+                  <div className='block w-auto p-3'>
+                    <Link href='/' passHref>
+                      <Image
+                        src='/RehabLogo.png'
+                        alt='logo'
+                        height={50}
+                        width={280}
                         className='hover:cursor-pointer'
                       />
                     </Link>

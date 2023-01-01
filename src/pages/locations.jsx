@@ -63,9 +63,9 @@ export default function locations() {
                 </div>
                 <div className='mx-auto mb-4 flex flex-1 flex-col justify-between '>
                   <div className='flex-1'>
-                    <p className='flex items-center justify-center gap-2 text-xl font-medium text-[#00847D] '>
+                    <p className='flex items-center justify-center gap-2 text-xl font-medium text-wcyan '>
                       <LocationMarkerIcon
-                        className='h-6 w-6 flex-shrink-0 text-[#00847D]/80'
+                        className='h-6 w-6 flex-shrink-0 text-wcyan'
                         aria-hidden='true'
                       />
                       {post.category.name}

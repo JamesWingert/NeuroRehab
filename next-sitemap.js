@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://neurologyandsleep.com',
+  siteUrl: 'https://neurologyandneurorehabilitation.com',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [{ userAgent: '*', allow: '/' }],
