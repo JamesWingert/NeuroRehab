@@ -56,7 +56,7 @@ export default function Navbar() {
                       />
                     </Link>
                   </div>
-                  <div className='block w-auto p-3'>
+                  <div className='block w-auto p-3 sm:hidden'>
                     <Link href='/' passHref>
                       <Image
                         src='/RehabLogo.png'
