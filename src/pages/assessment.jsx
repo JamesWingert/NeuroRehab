@@ -131,8 +131,9 @@ export default function Contact() {
           >
             <div className='mx-auto max-w-lg px-2'>
               <h1 className='text-center text-xl font-extrabold tracking-tight text-[#c6a25e]'>
-                For a free assessment, please give us a call or submit this form
-                and we will contact you as soon as possible. Thank you!
+                For a free physical therapy assessment, please give us a call or
+                submit this form and we will contact you as soon as possible.
+                Thank you!
               </h1>
               <dl className='mt-6 text-base  text-wcyan  '>
                 <div className='mt-4'>
