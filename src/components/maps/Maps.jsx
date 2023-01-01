@@ -6,19 +6,6 @@ import Mesa from './Mesa';
 import Divider from '../layout/Dividers';
 const posts = [
   {
-    title: '2919 S. Ellsworth Road',
-    title2: 'Suite 135',
-    title3: 'Mesa, AZ 85212',
-    href: 'https://www.google.com/maps/place/2919+S+Ellsworth+Rd+%23135,+Mesa,+AZ+85212/@33.3620994,-111.6371875,17z/data=!3m1!4b1!4m5!3m4!1s0x872bb18e61a89343:0xbe659bbab6bcbf35!8m2!3d33.3620994!4d-111.6349988',
-    id: 1,
-    category: { name: 'Mesa, AZ' },
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
-    date: 'Directions',
-    imageUrl: '/home/jimmy/Documents/NeurologySite/public/directions.png',
-    con: <Chandler></Chandler>,
-  },
-  {
     title: '2152 S. Vineyard Drive',
     title2: 'Suite 131',
     title3: 'Mesa, AZ 85210',
@@ -31,6 +18,19 @@ const posts = [
     imageUrl:
       'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
     con: <Mesa></Mesa>,
+  },
+  {
+    title: '2919 S. Ellsworth Road',
+    title2: 'Suite 135',
+    title3: 'Mesa, AZ 85212',
+    href: 'https://www.google.com/maps/place/2919+S+Ellsworth+Rd+%23135,+Mesa,+AZ+85212/@33.3620994,-111.6371875,17z/data=!3m1!4b1!4m5!3m4!1s0x872bb18e61a89343:0xbe659bbab6bcbf35!8m2!3d33.3620994!4d-111.6349988',
+    id: 1,
+    category: { name: 'Mesa, AZ' },
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+    date: 'Directions',
+    imageUrl: '/home/jimmy/Documents/NeurologySite/public/directions.png',
+    con: <Chandler></Chandler>,
   },
 ];
 

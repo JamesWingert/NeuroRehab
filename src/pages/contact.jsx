@@ -156,8 +156,8 @@ export default function Contact() {
                       aria-hidden='true'
                     />
                     <span className='ml-3 mb-3 font-bold'>
-                      2919 S. Ellsworth Road
-                      <br></br>Suite 135 <br></br>Mesa, AZ 85212
+                      2152 S. Vineyard Road
+                      <br></br>Suite 131 <br></br>Mesa, AZ 85210
                     </span>
                   </dd>
                   <dt className='sr-only'>Postal address</dt>
@@ -167,8 +167,8 @@ export default function Contact() {
                       aria-hidden='true'
                     />
                     <span className='ml-3 mb-3 font-bold'>
-                      2152 S. Vineyard Road
-                      <br></br>Suite 131 <br></br>Mesa, AZ 85210
+                      2919 S. Ellsworth Road
+                      <br></br>Suite 135 <br></br>Mesa, AZ 85212
                     </span>
                   </dd>
                   <dt className='sr-only'>Postal address</dt>
