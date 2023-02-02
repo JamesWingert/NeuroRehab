@@ -64,7 +64,7 @@ const Service = () => {
           </div>
         </div>
         <div className='mb-24 grid grid-cols-1 flex-col-reverse items-center gap-y-10 gap-x-10 rounded-2xl border border-wcyan/20 bg-white p-2 shadow-xl md:grid-cols-2 md:gap-y-32 md:gap-x-24 md:p-5'>
-          <div className='order-none md:order-2  '>
+          {/* <div className='order-none md:order-2  '>
             <h2 className='mb-4 text-center font-equinox text-3xl font-semibold tracking-tight text-wcyan sm:text-left md:text-4xl md:leading-tight'>
               Neuro Psychiatry
             </h2>
@@ -87,7 +87,7 @@ const Service = () => {
                 Learn More
               </button>
             </Link>
-          </div>
+          </div> */}
           <div className=' flex h-full w-full flex-col items-center'>
             <div className='md:h-140 relative h-96  w-full '>
               <Image

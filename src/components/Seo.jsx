@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'Neurology and Neuro Rehabilitation',
   siteName: 'Neurology and Neuro Rehabilitation',
   description:
-    'A website for Neurology and Neuro Rehabilitation in Arizona. Physical Therapy, Psychiatry, Sleep, Neurology, and more.',
+    'A website for Neurology and Neuro Rehabilitation in Arizona. Physical Therapy, Sleep, Neurology, and more.',
 
   url: 'https://neurologyandneurorehabilitation.com',
   type: 'website',

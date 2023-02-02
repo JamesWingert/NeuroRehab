@@ -30,11 +30,11 @@ export const AboutUs = () => {
               services we offer are in a unique partnership of health care:
               providing and interpreting your tests, serving as a consultant to
               your referring physician and providing medical care for your
-              specific neurologic, neuro rehabilitative, and psychiatry needs.
-              Neurology and Neuro Rehabilitation has been carefully
-              structured to provide a personal approach to patient care. Our
-              goal is to provide you with very good service and pay close
-              attention to your individual needs and concerns.
+              specific neurologic, and neuro rehabilitative needs. Neurology and
+              Neuro Rehabilitation has been carefully structured to provide a
+              personal approach to patient care. Our goal is to provide you with
+              very good service and pay close attention to your individual needs
+              and concerns.
             </p>
           </div>
           <div className='grid-flow-col grid-cols-1  '>
