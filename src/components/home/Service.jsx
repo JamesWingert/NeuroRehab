@@ -88,7 +88,7 @@ const Service = () => {
               </button>
             </Link>
           </div> */}
-          <div className=' flex h-full w-full flex-col items-center'>
+          {/* <div className=' flex h-full w-full flex-col items-center'>
             <div className='md:h-140 relative h-96  w-full '>
               <Image
                 src={insomnia}
@@ -98,8 +98,8 @@ const Service = () => {
                 objectFit='cover'
               />
             </div>
-            {/* md:h-52 md:w-48 h-96  */}
-          </div>
+            md:h-52 md:w-48 h-96  
+          </div> */}
         </div>
         <div className='mb-24 grid grid-cols-1 items-center gap-y-10 gap-x-10 rounded-2xl border border-wcyan/20 bg-white p-2 shadow-xl md:grid-cols-2 md:gap-y-32 md:gap-x-24 md:p-5'>
           <div className=''>
