@@ -43,7 +43,7 @@ export default function Hero() {
                 Neuro Rehabilitation
               </div>
               <p className='font-widest mx-auto mt-12 max-w-lg text-center text-xl font-medium text-white sm:max-w-3xl'>
-                Our newest service for the local community.
+                Our newest services for the local community.
               </p>
 
               <div className='mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center'>
