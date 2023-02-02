@@ -39,11 +39,11 @@ export default function Hero() {
               </h1>
               <div className='mx-auto  mt-12 flex max-w-lg flex-col items-center justify-center text-center text-3xl font-medium text-white sm:max-w-3xl sm:flex-row'>
                 Physical Therapy
-                {/* <GoPrimitiveDot className='mx-2 text-[#e2cfac]' />
-                Neuropsychiatry */}
+                <GoPrimitiveDot className='mx-2 text-[#e2cfac]' />
+                Neuro Rehabilitation
               </div>
               <p className='font-widest mx-auto mt-12 max-w-lg text-center text-xl font-medium text-white sm:max-w-3xl'>
-                Our newest services for the local community.
+                Our newest service for the local community.
               </p>
 
               <div className='mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center'>
