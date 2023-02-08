@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import { Cloudinary } from '@cloudinary/url-gen';
-import icon1 from 'public/ser_icon1.png';
-import icon2 from 'public/ser_icon2.png';
-import icon3 from 'public/ser_icon3.png';
-import icon4 from 'public/ser_icon4.png';
-import icon5 from 'public/ser_icon5.png';
-import icon6 from 'public/ser_icon6.png';
-import icon8 from 'public/ser_icon8.png';
-import icon7 from 'public/ser_icon9.png';
+import icon1 from 'public/backpain.png';
+import icon4 from 'public/np.png';
+import icon5 from 'public/op.png';
+import icon2 from 'public/pt.png';
+import icon7 from 'public/spine.png';
+import icon6 from 'public/symptom.png';
 import React from 'react';
 
 import Banner from '@/components/layout/Banner';
@@ -15,52 +13,40 @@ import Seo from '@/components/Seo';
 
 const features = [
   {
-    name: 'PSG (Polysomnography)',
+    name: 'Migraine',
     description:
-      'Used to record brain activities, respiratory efforts and body movement in sleep for diagnosis of a variety of sleep disorders such as sleep apnea and restless leg syndrome.',
-    icon: `${icon1.src}`,
-  },
-  {
-    name: 'CPAP Titration',
-    description:
-      'Used to find the best equipment and air pressure to treat obstructive sleep apnea.',
-    icon: `${icon2.src}`,
-  },
-  {
-    name: 'MSLT (Multiple Sleep Latency Test)',
-    description:
-      'Used to evaluate daytime sleepiness to diagnose disorders like narcolepsy.',
-    icon: `${icon3.src}`,
-  },
-  {
-    name: 'EEG (Electroencephalogram)',
-    description:
-      'Used to record electrical impulses of the brain for diagnosis of specific areas of abnormality.',
+      'Migraine relief through the practice of massages, vestibular therapy, postural correction, and many other treatements.',
     icon: `${icon4.src}`,
   },
   {
-    name: 'EMG / NCV',
+    name: 'Neck and Back Pain - Radiculopathy',
     description:
-      'Used to evaluate electrical waves in nervous system and muscles for diagnosis of the cause and site of nerve and muscular problems.',
+      'Radiculopathy is a condition that occurs when a nerve in the spine is compressed or irritated. Treatment includes physical therapy, massage, and other modalities.',
+    icon: `${icon1.src}`,
+  },
+  {
+    name: 'Parkinson’s Disease',
+    description:
+      'Parkinson’s disease is a progressive disorder of the nervous system that affects movement. Our team of experts will work with you to develop a treatment plan that will help you manage your symptoms and improve your quality of life.',
     icon: `${icon5.src}`,
   },
   {
-    name: 'VNG (Videonystagmography)',
+    name: 'Balance Issues',
     description:
-      'VNG is a series of tests designed to evaluate the etiologies causing dizziness or balance problem.',
+      'Balance issues can be caused by a variety of factors, including vestibular disorders, neurological disorders, and other conditions.',
+    icon: `${icon2.src}`,
+  },
+  {
+    name: 'Vertigo - Vestibular Therapy',
+    description:
+      'Vertigo is a sensation of spinning or whirling that can be caused by a variety of factors, including inner ear disorders, neurological disorders, and other conditions.',
     icon: `${icon6.src}`,
   },
   {
-    name: 'Botox',
+    name: 'Spine Therapy',
     description:
-      'Botox is used for migraine headaches because it blocks neurotransmitters that carry pain signals from your brain. It stops the chemicals before they get to the nerve endings around your head and neck.  ',
+      'Spine therapy is a specialized service that focuses on rehabilitating injuries, diseases, and disorders that affect the spine. These disorders are often debilitating and affect the individual’s quality of life in a major way. ',
     icon: `${icon7.src}`,
-  },
-  {
-    name: 'SUDOSCAN',
-    description:
-      'SUDOSCAN is a noninvasive, highly sensitive, and reproducible tool for the early detection of peripheral neuropathy. ',
-    icon: `${icon8.src}`,
   },
 ];
 
@@ -77,20 +63,21 @@ const services = () => {
       <Banner pageName='Services' imageURL={myImage} />
       <div>
         <div className='container'>
-          <div className='mb-20 rounded-3xl bg-wcyan/30'>
+          <div className='mb-20 rounded-3xl border-2 border-wcyan'>
             <div className='mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-24'>
-              <h2 className='text-3xl font-extrabold tracking-tight text-wcyan'>
-                Coming Soon...{' '}
-              </h2>
-              {/* <p className='mt-4 max-w-6xl text-center text-lg text-slate-600'>
-                Our experienced team works together to evaluate your condition.
-                Our advanced diagnostic services utilize state-of-the-art
-                medical technology, providing referring physicians and patients
-                with the opportunity to receive fast, accurate results so that
-                appropriate treatments can begin as quickly as possible. Scroll
-                down to review our Advanced Diagnostic Services.
-              </p> */}
-              {/* <div className='mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
+              <p className='mt-4 max-w-6xl text-center text-lg text-slate-600'>
+                Neurological rehabilitation is a specialized service that
+                focuses on rehabilitating injuries, diseases, and disorders that
+                affect the nervous system. These disorders are often
+                debilitating and affect the individual’s quality of life in a
+                major way. Our experienced team works together to evaluate your
+                condition. Our advanced diagnostic services utilize
+                state-of-the-art medical technology, providing referring
+                physicians and patients with the opportunity to receive fast,
+                accurate results so that appropriate treatments can begin as
+                quickly as possible.
+              </p>
+              <div className=' mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
                 {features.map((feature) => (
                   <div key={feature.name}>
                     <div>
@@ -104,7 +91,7 @@ const services = () => {
                       </span>
                     </div>
                     <div className='mt-6'>
-                      <h3 className='text-center text-lg font-medium text-slate-900'>
+                      <h3 className='text-center text-lg font-medium text-wcyan underline underline-offset-4'>
                         {feature.name}
                       </h3>
                       <p className='mt-2 text-base text-slate-600'>
@@ -113,7 +100,7 @@ const services = () => {
                     </div>
                   </div>
                 ))}
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

@@ -63,7 +63,7 @@ const Service = () => {
             {/* md:h-52 md:w-48 h-96  */}
           </div>
         </div>
-        <div className='mb-24 grid grid-cols-1 flex-col-reverse items-center gap-y-10 gap-x-10 rounded-2xl border border-wcyan/20 bg-white p-2 shadow-xl md:grid-cols-2 md:gap-y-32 md:gap-x-24 md:p-5'>
+        {/* <div className='mb-24 grid grid-cols-1 flex-col-reverse items-center gap-y-10 gap-x-10 rounded-2xl border border-wcyan/20 bg-white p-2 shadow-xl md:grid-cols-2 md:gap-y-32 md:gap-x-24 md:p-5'> */}
           {/* <div className='order-none md:order-2  '>
             <h2 className='mb-4 text-center font-equinox text-3xl font-semibold tracking-tight text-wcyan sm:text-left md:text-4xl md:leading-tight'>
               Neuro Psychiatry
@@ -101,7 +101,7 @@ const Service = () => {
             </div>
             md:h-52 md:w-48 h-96  
           </div> */}
-        </div>
+        {/* </div> */}
         <div className='mb-24 grid grid-cols-1 items-center gap-y-10 gap-x-10 rounded-2xl border border-wcyan/20 bg-white p-2 shadow-xl md:grid-cols-2 md:gap-y-32 md:gap-x-24 md:p-5'>
           <div className=''>
             <h2 className='mb-4 text-center font-equinox text-3xl font-semibold tracking-tight text-wcyan sm:text-left md:text-4xl md:leading-tight'>
